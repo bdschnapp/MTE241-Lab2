@@ -1,8 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
   <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="445e434f-80ce-4e4d-b81c-f664c25e979b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Lab 2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LPC17xx.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Listings/lab2.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Listings/startup_lpc17xx.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Objects/lab2.build_log.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Objects/lab2.lnp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Objects/lab2_Target 1.dep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Objects/startup_lpc17xx.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Objects/startup_lpc17xx.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Objects/system_lpc17xx.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Objects/system_lpc17xx.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Objects/system_lpc17xx.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2.uvguix.bdschnapp" beforeDir="false" afterPath="$PROJECT_DIR$/lab2.uvguix.bdschnapp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2.uvoptx" beforeDir="false" afterPath="$PROJECT_DIR$/lab2.uvoptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2.uvprojx" beforeDir="false" afterPath="$PROJECT_DIR$/lab2.uvprojx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1iI0crFFZKUZws1JGeS2ck2Wxra" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="445e434f-80ce-4e4d-b81c-f664c25e979b" name="Default Changelist" comment="" />
+      <created>1601579888802</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601579888802</updated>
+      <workItem from="1601579893209" duration="3196000" />
+    </task>
+    <task id="LOCAL-00001" summary="Configured project and added starter files">
+      <created>1601579980428</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601579980428</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Configured project and added starter files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configured project and added starter files" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1601579938360">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601579938360" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1601581880889">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601581880889" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601579993181">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601579993181" />
   </component>
 </project>
