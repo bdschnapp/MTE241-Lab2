@@ -18,11 +18,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="445e434f-80ce-4e4d-b81c-f664c25e979b" name="Default Changelist" comment="Added additional simulation configurations&#10;Laid out work needed to be done">
+    <list default="true" id="445e434f-80ce-4e4d-b81c-f664c25e979b" name="Default Changelist" comment="Added logic for program 1 and 3&#10;TODO: test and debug, as well as verify peripheral addresses&#10;TODO: add pause functionality for program 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Objects/lab2_Target 1.dep" beforeDir="false" afterPath="$PROJECT_DIR$/Objects/lab2_Target 1.dep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2.uvguix.bdschnapp" beforeDir="false" afterPath="$PROJECT_DIR$/lab2.uvguix.bdschnapp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2.uvoptx" beforeDir="false" afterPath="$PROJECT_DIR$/lab2.uvoptx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601579888802</updated>
-      <workItem from="1601579893209" duration="8637000" />
+      <workItem from="1601579893209" duration="14461000" />
     </task>
     <task id="LOCAL-00001" summary="Configured project and added starter files">
       <created>1601579980428</created>
@@ -80,7 +77,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601583394721</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added logic for program 1&#10;TODO: test and debug, as well as verify peripheral addresses">
+      <created>1601588898883</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601588898883</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added logic for program 1 and 3&#10;TODO: test and debug, as well as verify peripheral addresses&#10;TODO: add pause functionality for program 3">
+      <created>1601588955327</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601588955327</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,7 +111,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Configured project and added starter files" />
     <MESSAGE value="Added additional simulation configurations&#10;Laid out work needed to be done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added additional simulation configurations&#10;Laid out work needed to be done" />
+    <MESSAGE value="Added logic for program 1&#10;TODO: test and debug, as well as verify peripheral addresses" />
+    <MESSAGE value="Added logic for program 1 and 3&#10;TODO: test and debug, as well as verify peripheral addresses&#10;TODO: add pause functionality for program 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added logic for program 1 and 3&#10;TODO: test and debug, as well as verify peripheral addresses&#10;TODO: add pause functionality for program 3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1601579938360">
@@ -111,9 +124,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601581880889" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601583399005">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601588971743">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601583399005" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601588971743" />
   </component>
 </project>

@@ -1,7 +1,3 @@
-//
-// Created by Ben Schnapp on 10/1/2020.
-//
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -35,57 +31,92 @@ const char * base10_to_base2(int base10){
     return base2return;
 }
 
+void pause(){
+    for(int i = 0; i < 2000; i++){}
+}
+
+//TODO: test and debug
 int main(){
-    //Program 1
-    //TODO: test and debug
+
     #ifdef a
+    //Program 1 Turn led on/off if push button is pushed/released
     //Declare variables and I/O locations
     int previous = 0;
     int input = 0;
-    unsigned int *p_input;
-    p_input = 0x3042FD71;
-    LPC_GPIO2->FIODIR &= ~(1<<10); //Push button in input mode
-    LPC_GPIO1->FIODIR |= (1<<28); //LED in output mode
+    LPC_GPIO2->FIODIR &= ~(1u<<10); //Push button in input mode
+    LPC_GPIO1->FIODIR |= (1u<<28); //LED in output mode
 
     //Main loop
     while(1){
         //read from inputs
-        input = (LPC_GPIO1->FIOPIN>>0) & 0x01;
+        input = (LPC_GPIO1->FIOPIN>>10) & 0x01;
 
         //write to LEDs
         if ((previous == 0) && (input == 1)){
             //turn on
-            LPC_GPIO1->FIOSET |= (1<<28);
+            LPC_GPIO1->FIOSET |= (1u<<28);
             previous = 1;
         }
         else if((previous == 1) && (input == 0)){
             //turn off
-            LPC_GPIO1->FIOCLR |= (1<<28);
+            LPC_GPIO1->FIOCLR |= (1u<<28);
             previous = 0;
         }
+        pause();
     }
     #endif
 
-    //TODO: Program 2
+
     #ifdef b
+    //Program 2 read joystick and print out information about it
     //declare constants and I/O locations
+    int north, south, east, west, pushed;
+
+    //sets all joystick pins to input mode
+    LPC_GPIO1->FIODIR &= ~(1u<<20);
+    LPC_GPIO1->FIODIR &= ~(1u<<23);
+    LPC_GPIO1->FIODIR &= ~(1u<<24);
+    LPC_GPIO1->FIODIR &= ~(1u<<25);
+    LPC_GPIO1->FIODIR &= ~(1u<<26);
 
     //Main loop
     while(1){
-        //read from inputs
+        north = (LPC_GPIO1->FIOPIN>>24) & 0x01; // b 24
+        south = (LPC_GPIO1->FIOPIN>>25) & 0x01; // d 25
+        east = (LPC_GPIO1->FIOPIN>>26) & 0x01; // c 26
+        west = (LPC_GPIO1->FIOPIN>>23) & 0x01; // a 23
+        pushed = (LPC_GPIO1->FIOPIN>>20) & 0x01; //cntr 20
 
-        //determine which direction joystick is in
+        if (north){
+            printf("North    ");
+        }
+        else if(south){
+            printf("South    ");
+        }
+        else if(east){
+            printf("East     ");
+        }
+        else if(west){
+            printf("West     ")
+        }
+        else{
+            printf("Centered ")
+        }
 
-        //clear screen
-
-        //print to screen the direction and if pushed down
-            //pause for a bit for readability maybe?
+        if(pushed){
+            printf("and pushed down");
+        }
+        else{
+            printf("and not pushed down");
+        }
+        pause();
     }
     #endif
 
-    //TODO: Program 3
+
     #ifdef c
-    //declare variables and I/O locations
+    //Program 3, take base10 int user input and convert to base2 string and print
+    //Declare variables
     char str_input[5];
     char str_output[9];
     int int_input = 0;
@@ -97,6 +128,7 @@ int main(){
         sprintf(str_output, "");
 
         //read user input
+        //TODO: verify that scanf works with LPC1768
         scanf("%s", str_input);
 
         //convert input to a base10 int
@@ -106,24 +138,15 @@ int main(){
         str_output = base10_tobase_2(int_input);
         printf(str_output);
 
-        //TODO: pause for readability
+        pause();
     }
     #endif
 
-    //TODO: Program 4
+
     #ifdef d
-    // declare constants and I/O locations and turn on peripherials
+    //TODO: Program 4
+    //Read analogue input and print output
 
-    //Main loop
-    while(1){
-        //read input
-
-        //do any necessairy conversions
-
-        //write to output
-            //pause for readability?
-
-    }
     #endif
 
 }
