@@ -18,8 +18,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="445e434f-80ce-4e4d-b81c-f664c25e979b" name="Default Changelist" comment="Added logic for program 1 and 3&#10;TODO: test and debug, as well as verify peripheral addresses&#10;TODO: add pause functionality for program 3">
+    <list default="true" id="445e434f-80ce-4e4d-b81c-f664c25e979b" name="Default Changelist" comment="Added logic for program 2&#10;Added pause function">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2.uvguix.bdschnapp" beforeDir="false" afterPath="$PROJECT_DIR$/lab2.uvguix.bdschnapp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,9 +48,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -61,7 +62,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601579888802</updated>
-      <workItem from="1601579893209" duration="14461000" />
+      <workItem from="1601579893209" duration="14789000" />
+      <workItem from="1601834234076" duration="2142000" />
     </task>
     <task id="LOCAL-00001" summary="Configured project and added starter files">
       <created>1601579980428</created>
@@ -91,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601588955327</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added logic for program 2&#10;Added pause function">
+      <created>1601596121426</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601596121426</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,13 +116,15 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Configured project and added starter files" />
     <MESSAGE value="Added additional simulation configurations&#10;Laid out work needed to be done" />
     <MESSAGE value="Added logic for program 1&#10;TODO: test and debug, as well as verify peripheral addresses" />
     <MESSAGE value="Added logic for program 1 and 3&#10;TODO: test and debug, as well as verify peripheral addresses&#10;TODO: add pause functionality for program 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added logic for program 1 and 3&#10;TODO: test and debug, as well as verify peripheral addresses&#10;TODO: add pause functionality for program 3" />
+    <MESSAGE value="Added logic for program 2&#10;Added pause function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added logic for program 2&#10;Added pause function" />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1601579938360">
@@ -124,9 +135,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601581880889" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601588971743">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601596130838">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601588971743" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601596130838" />
   </component>
 </project>
